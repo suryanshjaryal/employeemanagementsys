@@ -48,6 +48,9 @@ public class PartTimeEmployee extends JFrame  implements ActionListener  {
             if (e.getSource() == button1) {
                 new newPartTime();
                 setVisible(false);
+            }if (e.getSource()==button2){
+                new PartViewEmployee();
+                setVisible(false);
             }
 
         } catch (Exception E) {
@@ -56,6 +59,6 @@ public class PartTimeEmployee extends JFrame  implements ActionListener  {
     }
 
     public static void main(String[] args) {
-
+new PartTimeEmployee();
     }
 }
