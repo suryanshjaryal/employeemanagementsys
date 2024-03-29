@@ -47,7 +47,7 @@ JButton button1,button2;
                 new newFulltime();
                 setVisible(false);
             }if (e.getSource()==button2){
-                new PartViewEmployee();
+                 new FulltimeEmployeeview();
                 setVisible(false);
             }
 
